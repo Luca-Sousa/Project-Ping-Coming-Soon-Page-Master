@@ -29,9 +29,9 @@
       <form class="max-w-80 w-full min-h-48 flex flex-col sm:max-w-[380px] md:max-w-[440px] lg:max-w-xl lg:min-h-32 lg:flex-row lg:justify-between">
         <div class="mb-3 lg:w-[68%]">
           <input class="w-full h-12 border-[1px] border-col-PB rounded-3xl px-8" type="email" name="email" id="email" placeholder="Your email address...">
-          <p class="hidden text-center text-xs text-red-300 font-semibold italic mt-2 mb-4 lg:text-left lg:pl-9 lg:mb-0">Please provide a valid email address</p>
+          <p class="hidden text-center text-xs text-red-300 font-semibold italic mt-2 mb-4 lg:text-left lg:pl-9 lg:mb-0" id="messageError">Please provide a valid email address</p>
         </div>
-        <input class="w-full h-12 bg-col-B text-white text-lg font-semibold rounded-3xl cursor-pointer hover:bg-hover-btn lg:w-[30%] lg:text-base" type="button" value="Notify Me" name="button">
+        <input class="w-full h-12 bg-col-B text-white text-lg font-semibold rounded-3xl cursor-pointer hover:bg-hover-btn lg:w-[30%] lg:text-base" type="submit" value="Notify Me" name="submit" id="submit">
       </form>
   
       <picture class="sm:max-w-md md:max-w-lg lg:max-w-xl">
@@ -57,5 +57,7 @@
 
   </main>
 
+  <script src="js/jquery-3.7.1.js"></script>
+  <script src="js/functions.js"></script>
 </body>
 </html>

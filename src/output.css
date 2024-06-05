@@ -970,6 +970,11 @@ video {
   line-height: 2.5rem;
 }
 
+.text-5xl{
+  font-size: 3rem;
+  line-height: 1;
+}
+
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
@@ -993,11 +998,6 @@ video {
 .text-xs{
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-5xl{
-  font-size: 3rem;
-  line-height: 1;
 }
 
 .font-bold{
@@ -1069,12 +1069,12 @@ video {
   outline-style: solid;
 }
 
-.hover\:bg-hover-icon:hover{
-  background-color: rgba(75,121,248,255);
-}
-
 .hover\:bg-hover-btn:hover{
   background-color: rgba(113,149,245,255);
+}
+
+.hover\:bg-hover-icon:hover{
+  background-color: rgba(75,121,248,255);
 }
 
 .hover\:text-white:hover{
@@ -1090,11 +1090,6 @@ video {
   .sm\:max-w-md{
     max-width: 28rem;
   }
-
-  .sm\:text-sm{
-    font-size: 0.875rem;
-    line-height: 1.25rem;
-  }
 }
 
 @media (min-width: 768px){
@@ -1104,16 +1099,6 @@ video {
 
   .md\:max-w-lg{
     max-width: 32rem;
-  }
-
-  .md\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .md\:text-lg{
-    font-size: 1.125rem;
-    line-height: 1.75rem;
   }
 }
 
@@ -1154,64 +1139,26 @@ video {
     text-align: left;
   }
 
-  .lg\:text-base{
-    font-size: 1rem;
-    line-height: 1.5rem;
-  }
-
   .lg\:text-3xl{
     font-size: 1.875rem;
     line-height: 2.25rem;
   }
 
-  .lg\:text-4xl{
-    font-size: 2.25rem;
-    line-height: 2.5rem;
-  }
-
-  .lg\:text-xl{
-    font-size: 1.25rem;
-    line-height: 1.75rem;
+  .lg\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
   }
 
   .lg\:text-lg{
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
-
-  .lg\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
 }
 
 @media (min-width: 1280px){
-  .xl\:max-w-2xl{
-    max-width: 42rem;
-  }
-
-  .xl\:max-w-xl{
-    max-width: 36rem;
-  }
-
   .xl\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
-  }
-
-  .xl\:text-5xl{
-    font-size: 3rem;
-    line-height: 1;
-  }
-
-  .xl\:text-3xl{
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
-  .xl\:text-2xl{
-    font-size: 1.5rem;
-    line-height: 2rem;
   }
 
   .xl\:text-xl{
