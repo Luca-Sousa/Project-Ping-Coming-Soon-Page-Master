@@ -1,4 +1,4 @@
-# Frontend Mentor - Ping Coming Soon Page
+# Project - Ping Coming Soon Page
 
 ![Design preview for the Ping coming soon page coding challenge](./design/desktop-preview.jpg)
 
