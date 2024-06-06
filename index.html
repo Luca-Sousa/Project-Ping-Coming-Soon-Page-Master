@@ -11,22 +11,20 @@
   <link rel="stylesheet" href="src/output.css">
   <script src="https://kit.fontawesome.com/6652d71736.js" crossorigin="anonymous"></script>
 </head>
-<body class="font-LibreFranklin">
+<body class="min-h-screen flex flex-col items-center justify-between px-5 py-10 font-LibreFranklin">
 
-  <main class="min-h-screen flex flex-col items-center justify-between px-5 py-10">
-
-    <div class="flex flex-col items-center">
+  <main class="flex flex-col items-center">
 
       <picture class="my-10">
         <img src="images/logo.svg" alt="logo">
       </picture>
   
-      <div class="text-center my-6">
+      <div class="text-center my-6 xl:my-4">
         <h2 class="text-2xl text-col-G font-light mb-5 lg:text-3xl xl:text-4xl">We are launching <strong class="text-col-VDB font-bold">soon!</strong></h2>
         <p class="text-base md:text-md lg:text-lg xl:text-xl">Subscribe and get notified</p>
       </div>
   
-      <form class="max-w-80 w-full min-h-48 flex flex-col sm:max-w-[380px] md:max-w-[440px] lg:max-w-xl lg:min-h-32 lg:flex-row lg:justify-between">
+      <form class="max-w-80 w-full min-h-48 flex flex-col sm:max-w-[380px] md:max-w-[440px] lg:max-w-xl lg:min-h-32 lg:flex-row lg:justify-between xl:min-h-28 xl:max-w-2xl">
         <div class="mb-3 lg:w-[68%]">
           <input class="w-full h-12 border-[1px] border-col-PB rounded-3xl px-8" type="email" name="email" id="email" placeholder="Your email address...">
           <p class="hidden text-center text-xs text-red-300 font-semibold italic mt-2 mb-4 lg:text-left lg:pl-9 lg:mb-0" id="messageError">Please provide a valid email address</p>
@@ -34,28 +32,26 @@
         <input class="w-full h-12 bg-col-B text-white text-lg font-semibold rounded-3xl cursor-pointer hover:bg-hover-btn lg:w-[30%] lg:text-base" type="submit" value="Notify Me" name="submit" id="submit">
       </form>
   
-      <picture class="sm:max-w-md md:max-w-lg lg:max-w-xl">
+      <picture class="sm:max-w-md md:max-w-lg lg:max-w-xl xl:max-w-2xl">
         <img src="images/illustration-dashboard.png" alt="illustration Dashboard">
       </picture>
 
-    </div>
-
-    <footer>
-      <div class="flex justify-center">
-        <div class="w-9 h-9 flex justify-center items-center rounded-full border-[1px] border-col-PB cursor-pointer text-col-B hover:bg-hover-icon hover:text-white">
-          <i class="fa-brands fa-facebook-f"></i>
-        </div>
-        <div class="w-9 h-9 flex justify-center items-center rounded-full border-[1px] border-col-PB mx-4 cursor-pointer text-col-B hover:bg-hover-icon hover:text-white">
-          <i class="fa-brands fa-twitter"></i>
-        </div>
-        <div class="w-9 h-9 flex justify-center items-center rounded-full border-[1px] border-col-PB cursor-pointer text-col-B hover:bg-hover-icon hover:text-white">
-          <i class="fa-brands fa-instagram"></i>
-        </div>
-      </div>
-      <p class="text-sm text-col-G mt-4">&copy; Copyright Ping. All rights reserved.</p>
-    </footer>
-
   </main>
+
+  <footer id="footer">
+    <div class="flex justify-center">
+      <div class="w-9 h-9 flex justify-center items-center rounded-full border-[1px] border-col-PB cursor-pointer text-col-B hover:bg-hover-icon hover:text-white">
+        <i class="fa-brands fa-facebook-f"></i>
+      </div>
+      <div class="w-9 h-9 flex justify-center items-center rounded-full border-[1px] border-col-PB mx-4 cursor-pointer text-col-B hover:bg-hover-icon hover:text-white">
+        <i class="fa-brands fa-twitter"></i>
+      </div>
+      <div class="w-9 h-9 flex justify-center items-center rounded-full border-[1px] border-col-PB cursor-pointer text-col-B hover:bg-hover-icon hover:text-white">
+        <i class="fa-brands fa-instagram"></i>
+      </div>
+    </div>
+    <p class="text-sm text-col-G mt-4">&copy; Copyright Ping. All rights reserved.</p>
+  </footer>
 
   <script src="js/jquery-3.7.1.js"></script>
   <script src="js/functions.js"></script>

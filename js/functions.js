@@ -26,6 +26,12 @@ $(function(){
         }
     });
 
+    checkScrollbar();
+
+    $(window).resize(function() {
+        checkScrollbar();
+    });
+
     function applyFieldInvalid(el){
         el.css('border-color', 'hsl(354, 100%, 66%)');
     }
@@ -34,6 +40,12 @@ $(function(){
         el.css('border-color', 'hsl(223, 87%, 63%)');
         el.css('outline-color', 'hsl(223, 87%, 63%)');
         $(el).parent().find('p').hide();
+    }
+
+    function checkScrollbar() {
+        if ($(window).height() < $(document).height()) {
+            $('body footer').css('margin-top', '80px');
+        }
     }
     
 });

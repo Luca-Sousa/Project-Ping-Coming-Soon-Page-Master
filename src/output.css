@@ -597,6 +597,11 @@ video {
   margin-bottom: 2rem;
 }
 
+.my-4{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .mb-0{
   margin-bottom: 0px;
 }
@@ -723,6 +728,10 @@ video {
 
 .min-h-screen{
   min-height: 100vh;
+}
+
+.min-h-2{
+  min-height: 0.5rem;
 }
 
 .w-1{
@@ -1156,6 +1165,31 @@ video {
 }
 
 @media (min-width: 1280px){
+  .xl\:my-4{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .xl\:min-h-2{
+    min-height: 0.5rem;
+  }
+
+  .xl\:min-h-28{
+    min-height: 7rem;
+  }
+
+  .xl\:min-h-3{
+    min-height: 0.75rem;
+  }
+
+  .xl\:min-h-32{
+    min-height: 8rem;
+  }
+
+  .xl\:max-w-2xl{
+    max-width: 42rem;
+  }
+
   .xl\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
